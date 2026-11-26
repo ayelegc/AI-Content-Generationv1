@@ -1,0 +1,13 @@
+.env
+*.pyc
+__pycache__/
+.pytest_cache/
+*.tmp
+outputs/keyframes/*.png
+outputs/shots/*.mp4
+outputs/music/*.wav
+outputs/music/*.mp3
+outputs/narration/*.wav
+outputs/final/*.mp4
+outputs/final/*.srt
+!outputs/**/.gitkeep

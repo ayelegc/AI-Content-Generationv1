@@ -1,0 +1,151 @@
+{
+  "title": "የአያቴ የገበያ መንገድ (Grandmother's Market Path)",
+  "logline": "At dawn in the highlands, an elderly grandmother walks the red-earth path to market carrying woven baskets and quiet resilience that still guides her family today.",
+  "language": "am-ET",
+  "target_duration_sec": 72,
+  "aspect_ratios": [
+    "16:9",
+    "9:16"
+  ],
+  "style_block": "Warm 35mm documentary film still, golden morning highland light, natural earth tones and woven textures, subtle film grain, centered subject composition for dual-aspect framing, no text or watermarks.",
+  "character_reference": {
+    "name": "Emayework (Grandmother)",
+    "description": "Elderly Ethiopian grandmother in her late 60s, warm weathered face, white cotton netela shawl draped neatly over shoulders, calm steady eyes, carrying a handwoven basket.",
+    "seed": 1042,
+    "reference_image_path": "outputs/keyframes/ref_character.png"
+  },
+  "music_cues": [
+    {
+      "cue_id": "cue_main_score",
+      "start_sec": 0,
+      "end_sec": 72,
+      "caption": "Gentle acoustic krar and soft warm cello underscore, peaceful morning highland mood, understated slow melody leaving space for spoken narration, warm natural room texture",
+      "tempo_bpm": 74,
+      "key": "D minor",
+      "seed": 3001,
+      "instrumental": true
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "duration_sec": 7.0,
+      "shot_type": "Extreme wide shot",
+      "reason": "Establishes the misty highland dawn and the winding red-earth path before introducing the character.",
+      "image_prompt": "Misty highland hills at first light, winding red earth footpath through green terraces and eucalyptus trees, soft morning fog lifting.",
+      "motion_prompt": "Slow gentle camera push-in along the misty path, soft morning breeze moving tall grass.",
+      "narration_local": "ገና ጎህ ሳይቀድ፣ የደጋው ጭጋግ ገና ሳይበተን፣ አያቴ ወደ ገበያ የሚወስደውን ቀይ የአፈር መንገድ ትይዛለች።",
+      "narration_en": "Before dawn fully breaks, while highland mist still lingers, my grandmother takes the red-earth path toward market.",
+      "seed": 2001,
+      "use_video": true
+    },
+    {
+      "shot_id": "shot_02",
+      "duration_sec": 7.0,
+      "shot_type": "Medium shot",
+      "reason": "Introduces Grandmother with her netela and woven basket so viewers connect with her calm presence.",
+      "image_prompt": "Elderly Ethiopian grandmother in white cotton netela holding a woven basket, walking along a quiet highland path in soft morning light, centered framing.",
+      "motion_prompt": "Gentle steady tracking shot as she walks forward calmly, netela fabric swaying softly.",
+      "narration_local": "በትከሻዋ ላይ የተጣለው ነጭ ነጠላ እና በእጇ የያዘችው ቅርጫት የዘመናት ትዕግሥት ምልክቶች ነበሩ።",
+      "narration_en": "The white netela draped over her shoulders and the woven basket in her hand carried decades of quiet patience.",
+      "seed": 2002,
+      "use_video": true
+    },
+    {
+      "shot_id": "shot_03",
+      "duration_sec": 7.0,
+      "shot_type": "Close-up insert",
+      "reason": "Highlights weathered hands and woven craft as a tactile motif of care and preparation.",
+      "image_prompt": "Close-up of weathered elderly hands resting gently on a handwoven straw basket rim in warm morning sunlight, shallow depth of field.",
+      "motion_prompt": "Very subtle slow camera drift, warm sunlight shifting gently across the woven fibers.",
+      "narration_local": "እጆቿ ብዙ ድካምን ቢያውቁም፣ እያንዳንዱን ነገር በጥንቃቄ እና በፍቅር ማዘጋጀትን አላቋረጡም።",
+      "narration_en": "Though her hands knew hard labor, she never stopped preparing every detail with care and affection.",
+      "seed": 2003,
+      "use_video": false
+    },
+    {
+      "shot_id": "shot_04",
+      "duration_sec": 7.0,
+      "shot_type": "Medium close-up",
+      "reason": "Captures her facial expression and quiet determination as the journey steepens.",
+      "image_prompt": "Medium close-up of elderly Ethiopian grandmother with warm calm expression and gentle eyes in golden morning light, soft blurred background.",
+      "motion_prompt": "Subtle breathing motion and gentle blink, camera holds nearly still with minimal warmth.",
+      "narration_local": "መንገዱ ሲያቀበትም ሆነ ሲወርድ፣ የፊቷ መረጋጋት ለቤተሰባችን ትልቅ ጥንካሬ ነበር።",
+      "narration_en": "Whether the path climbed steep hills or dipped down, her calm face was a steady anchor for our family.",
+      "seed": 2004,
+      "use_video": true
+    },
+    {
+      "shot_id": "shot_05",
+      "duration_sec": 7.0,
+      "shot_type": "Wide shot",
+      "reason": "Shows the transition from quiet trail toward distant market activity and community gathering.",
+      "image_prompt": "Wide view of a small highland market approach in morning light, distant colorful umbrellas and people gathering, red earth road leading in.",
+      "motion_prompt": "Slow gentle pan right across the sunlit hillside toward the distant market.",
+      "narration_local": "ከሩቅ የገበያው ድምጽ መሰማት ሲጀምር፣ የቀኑ እንቅስቃሴ አዲስ ምዕራፍ ይከፍታል።",
+      "narration_en": "As distant sounds of the market begin to rise, the rhythm of the day opens a new chapter.",
+      "seed": 2005,
+      "use_video": false
+    },
+    {
+      "shot_id": "shot_06",
+      "duration_sec": 7.0,
+      "shot_type": "Medium shot",
+      "reason": "Shows respectful greeting and shared community warmth along the way.",
+      "image_prompt": "Elderly Ethiopian grandmother pausing on a sunlit path to exchange a warm respectful greeting with a neighbor, natural candid documentary look.",
+      "motion_prompt": "Gentle natural movement as they greet warmly in soft morning light, camera static.",
+      "narration_local": "በመንገድ የሚያጋጥሟትን ሰዎች በአክብሮት ሰላም ማለት እና መጠያየቅ የዕለት ተዕለት ልማዷ ነበር።",
+      "narration_en": "Greeting neighbors with respect and asking how their households fared was part of every morning.",
+      "seed": 2006,
+      "use_video": true
+    },
+    {
+      "shot_id": "shot_07",
+      "duration_sec": 7.5,
+      "shot_type": "Close-up",
+      "reason": "Delivers the emotional turning point: a family proverb remembered across generations.",
+      "image_prompt": "Intimate close-up of elderly Ethiopian grandmother smiling softly in warm golden sunlight, soft bokeh background, peaceful expression.",
+      "motion_prompt": "Very gentle slow push-in toward her warm eyes and soft smile.",
+      "narration_local": "ሁልጊዜ የምትለን አንድ ምሳሌ አለች፡ ትዕግሥት የመራራውን ፍሬ ወደ ጣፋጭ ይለውጣል።",
+      "narration_en": "She always leaves us with one proverb: patience turns even a bitter fruit sweet.",
+      "seed": 2007,
+      "use_video": true
+    },
+    {
+      "shot_id": "shot_08",
+      "duration_sec": 7.5,
+      "shot_type": "Cutaway / Over-the-shoulder",
+      "reason": "Connects the past story to the present day through a shared object or memory.",
+      "image_prompt": "Warm sunlit wooden table inside a modest home with a woven basket and a small cup of coffee, peaceful quiet morning light, centered composition.",
+      "motion_prompt": "Slow gentle camera pan across the table in soft morning light.",
+      "narration_local": "ዛሬ እኛም በራሳችን መንገድ ስንጓዝ፣ ያ ታሪክ እና ያ ምክር አብረውን ይጓዛሉ።",
+      "narration_en": "Today, as we walk our own paths, that story and her counsel walk beside us.",
+      "seed": 2008,
+      "use_video": false
+    },
+    {
+      "shot_id": "shot_09",
+      "duration_sec": 7.5,
+      "shot_type": "Medium wide shot",
+      "reason": "Brings back the visual motif of the journey with renewed clarity and warmth.",
+      "image_prompt": "Elderly Ethiopian grandmother standing calmly along a sunlit red-earth path framed by green highlands at golden hour, centered subject.",
+      "motion_prompt": "Gentle breeze in surrounding greenery, slow subtle camera pull-back.",
+      "narration_local": "ትውስታዋ የትላንትናን ብቻ ሳይሆን የነገንም መንገድ የሚያበራ ብርሃን ነው።",
+      "narration_en": "Her memory is not only yesterday's trace, but light for the road ahead.",
+      "seed": 2009,
+      "use_video": true
+    },
+    {
+      "shot_id": "shot_10",
+      "duration_sec": 7.0,
+      "shot_type": "Wide shot",
+      "reason": "Closes the narrative arc cleanly before the AI disclosure end card.",
+      "image_prompt": "Sunlit highland landscape and winding red path bathed in warm golden light as morning settles into clear day, calm serene composition.",
+      "motion_prompt": "Slow gentle drift as warm light settles evenly across the valley.",
+      "narration_local": "የአያቴ መንገድ በልባችን ውስጥ ዛሬም ሕያው ነው።",
+      "narration_en": "Grandmother's path lives on in our hearts today.",
+      "seed": 2010,
+      "use_video": false
+    }
+  ]
+}
